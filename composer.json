@@ -1,0 +1,25 @@
+{
+    "name": "loyaltylu/uploadfile",
+    "description": "一个通用文件上传包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luzhong",
+            "email": "979126035@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    }
+    "require-dev": {
+        "php": ">=7.0"
+    }
+}
+
+"autoload": {
+    "psr-4": {
+        "Loyaltylu\\": "src/"
+    }
+}
